@@ -74,3 +74,12 @@ set noswapfile
 "---------------------------------------------------------------------------
 " スマートなインデントを効かすぜ
 set smartindent
+
+inoremap { {}<LEFT>
+inoremap {<Enter> {}<LEFT><CR><BS><ESC><S-o>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap (<Enter> ()<LEFT><CR><ESC><S-o>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+
