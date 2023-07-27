@@ -8,7 +8,9 @@ set smartcase
 " インクリメンタルサーチ
 set incsearch
 " 検索ハイライト
-set hlsearch
+"set hlsearch
+" 検索ハイライトしない
+set nohlsearch
 "
 "---------------------------------------------------------------------------
 " 編集に関する設定:
